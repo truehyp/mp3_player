@@ -3,8 +3,7 @@
 #define INTERFACE_H_
 typedef struct _interface InterFace;       //定义一个新的类型
 
-struct _interface　　　//定义界面数据结构
-{
+struct _interface{
     GtkWidget *winMain;     //主窗体
     GtkWidget *diaPlaylist;    //播放列表对话框
     GtkWidget *diaMedialib;    //媒体库对话框
