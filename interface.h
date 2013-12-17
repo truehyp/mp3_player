@@ -10,6 +10,7 @@ struct _interface{
     GtkWidget *diaVolume;     //音量调节对话框
     GtkWidget *diaFile;       //文件选择对话框
     GtkWidget *diaDir;        //目录选择对话框
+    GtkWidget *treeClass;    //分类树视图的指针
 };
 
 GtkWidget *create_winMain (InterFace *ui);  //创建主窗体函数原型
